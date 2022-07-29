@@ -125,8 +125,9 @@ header img {
   padding: 10px 32px;
 }
 .nav-list a:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid white;
   font-size: 25px;
+  padding: 22px 32px 19px;
 }
 
 @media (max-width: 767px) {
@@ -150,16 +151,13 @@ header img {
   }
   .nav-list a {
     display: block;
-    font-size: 20px;
-    line-height: 30px;
-    color: white;
-    padding: 10px 32px;
   }
   .nav-list a:hover {
     border-bottom: none;
     font-size: 20px;
     background-color: white;
     color: #AA0601;
+    padding: 10px 32px;
   }
 }
 @media (max-width: 570px) {
@@ -234,8 +232,7 @@ footer {
   margin-right: 24px;
 }
 .footer-txt a:hover {
-  border-bottom: 1px solid white;
-  padding-bottom: 5px;
+  opacity: 0.7;
 }
 
 @media (max-width: 992px) {
