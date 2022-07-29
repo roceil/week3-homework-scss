@@ -1,0 +1,29 @@
+// 顏色
+$primary:'#AA0601';
+$secondary: '#650300';
+$bg-pink:'#FBF2F2';
+
+//字型
+$text-sm:'14px';
+$text-nl:'16px';
+$text-xl:'24px';
+$text-2xl: '32px';
+
+
+// 容器
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 0 36px;
+}
+
+//小工具
+.pr-0{
+    padding-right: 0px !important;
+}
+.pl-0{
+    padding-left: 0 !important;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
