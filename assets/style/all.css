@@ -1,0 +1,186 @@
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
+@import url(https://fonts.google.com/noto/specimen/Noto+Sans+TC);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 36px; }
+
+.pr-0 {
+  padding-right: 0px !important; }
+
+.pl-0 {
+  padding-left: 0 !important; }
+
+.mr-0 {
+  margin-right: 0 !important; }
+
+header {
+  background-color: #AA0601; }
+  header img {
+    width: 80px;
+    padding: 4px 0; }
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .nav-list li {
+    width: auto; }
+  .nav-list a {
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    padding: 10px  32px; }
+    .nav-list a:hover {
+      border-bottom: 2px solid black;
+      font-size: 25px; }
+
+footer {
+  background-color: #AA0601;
+  padding: 60px 0 32px; }
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 24px; }
+
+.footer-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .footer-nav-list a {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding: 0 24px; }
+    .footer-nav-list a:hover {
+      border-bottom: 2px solid white;
+      font-size: 24px; }
+
+.footer-nav-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .footer-nav-icon img {
+    width: 48px;
+    margin-right: 16px; }
+    .footer-nav-icon img:hover {
+      opacity: 0.6; }
+
+.contact {
+  margin-top: 35.98px;
+  margin-bottom: 32px; }
+  .contact li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8px; }
+  .contact img {
+    width: 36px;
+    margin-right: 22px; }
+  .contact a {
+    font-size: 36px;
+    line-height: 54px;
+    color: white; }
+
+.footer-txt {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .footer-txt a {
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 24px; }
+    .footer-txt a:hover {
+      border-bottom: 1px solid white;
+      padding-bottom: 5px; }
+
+/*# sourceMappingURL=all.css.map */
