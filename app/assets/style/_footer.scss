@@ -139,7 +139,8 @@ footer{
             padding-bottom: 8px;
             &:hover{
                 border-bottom: none;
-                padding-bottom: 0;
+                padding-bottom: 8px;
+                opacity: 0.7;
             }
         }
     }
