@@ -14,9 +14,8 @@ footer{
         font-size: 16px;
         line-height: 24px;
         color: white;
-        padding: 0 24px;
+        padding: 0 48px 0 0;
         &:hover{
-            border-bottom: 2px solid white;
             font-size: 24px;
         }
     }
@@ -64,3 +63,85 @@ footer{
         }
     }
 }
+
+// 平版寬度
+@media (max-width:992px) {
+    .footer-nav-list{
+        a{
+            padding: 0 40px 0 0;
+            &:hover{
+                font-size: 16px;
+            }
+        }
+    }
+    .footer-nav-icon{
+        img{
+            width: 48px;
+        }
+    }
+
+}
+@media (max-width:767px) {
+    .footer-nav-list{
+        a{
+            padding: 0 20px 0 0;
+            &:hover{
+                font-size: 16px;
+            }
+        }
+    }
+    .footer-nav-icon{
+        img{
+            width: 24px;
+        }
+    }
+}
+
+// 手機寬度
+@media (max-width:570px) {
+    .container{
+        padding:0 13px !important;
+    }
+    footer{
+        background-color: #AA0601;
+        padding: 24px 0 24px;
+    }
+    .footer-nav-list{
+        display: none;
+    }
+    .footer-nav-icon{
+        margin-left: auto;
+    }
+    .contact{
+        margin-top: -24px;
+        margin-bottom: 24px;
+        li{
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        img{
+            width: 24px;
+            margin-right: 8px;
+        }
+        a{
+            font-size:16px;
+            line-height: 24px;
+            color: white;
+        }
+    }
+    .footer-txt{
+        margin-top: 32px;
+        display: block;
+        justify-content: space-between;
+        a{
+            display: block;
+            padding-bottom: 8px;
+            &:hover{
+                border-bottom: none;
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
