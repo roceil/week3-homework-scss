@@ -82,6 +82,21 @@ li {
 .mr-0 {
   margin-right: 0 !important; }
 
+.mr-24 {
+  margin-right: 24px !important; }
+
+.btn-buy-now {
+  display: block;
+  width: 104px;
+  padding: 6px 12px;
+  background-color: #AA0601;
+  font-size: 20px;
+  line-height: 30px;
+  color: white; }
+  .btn-buy-now:hover {
+    color: #AA0601;
+    background-color: white; }
+
 header {
   background-color: #AA0601; }
   header img {
@@ -282,5 +297,83 @@ footer {
         border-bottom: none;
         padding-bottom: 8px;
         opacity: 0.7; } }
+
+.banner {
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png);
+  background-position: top center;
+  background-size: cover;
+  height: 60.5vh; }
+  .banner .banner-txt {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .banner p {
+    color: #650300;
+    font-size: 36px;
+    line-height: 54px; }
+  .banner h1 {
+    color: #650300;
+    font-size: 64px;
+    line-height: 96px;
+    font-weight: bold;
+    margin-bottom: 4px; }
+
+.specialized {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 104px;
+  background-color: #FBF2F2; }
+  .specialized h2 {
+    color: #650300;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 24px;
+    font-weight: bold; }
+
+.specialized-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .specialized-list li {
+    width: 25%; }
+  .specialized-list img {
+    width: 100px;
+    margin-bottom: 16px; }
+  .specialized-list h3 {
+    color: #650300;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px; }
+  .specialized-list p {
+    text-align: left;
+    line-height: 24px; }
+
+@media (max-width: 992px) {
+  .banner {
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png); } }
+
+@media (max-width: 767px) {
+  .banner {
+    height: 29.5vh; }
+    .banner p {
+      color: #650300;
+      font-size: 16px;
+      line-height: 24px; }
+    .banner h1 {
+      color: #650300;
+      font-size: 24px;
+      line-height: 36px; } }
 
 /*# sourceMappingURL=all.css.map */
