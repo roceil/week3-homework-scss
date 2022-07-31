@@ -30,10 +30,7 @@
     background-color: $bg-pink;
     h2{
         color: $secondary;
-        font-size: 48px;
-        line-height: 72px;
         margin-bottom: 24px;
-        font-weight: bold;
     }
 }
 .specialized-list{
@@ -57,13 +54,105 @@
         line-height: 24px;
     }
 }
+.classical{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    h2{
+        color: $secondary;
+        margin-bottom: 48px;
+    }
+}
+.classical-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    li{
+        width:33.3333%;
+    }
+    img{
+        margin-bottom: 8px;
+    }
+    h3{
+        font-size: 48px;
+        line-height: 72px;
+        color: $primary;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+.co-design{
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    h2{
+        color: white;
+        margin-bottom: 48px;
+    }
+}
+.co-design-list{
+    display: flex;
+    li{
+        max-width: 50%;
+    }
+    h3{
+        font-size: 48px;
+        line-height: 72px;
+        font-weight: bold; 
+        font-style: italic;
+        color: $primary;
+        background-color: white;
+        padding: 8px 0;
+    }
+}
 
 
 
 // 平版解析度
 @media (max-width:992px) {
+    .container{
+        padding-left: 36px;
+        padding-right: 36px;
+    }
     .banner{
         background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png);
+    }
+    .specialized-list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        li{
+            width: 47%;
+            margin-right: 0 !important;
+        }
+    }
+    .classical-list{
+        flex-wrap: wrap;
+        li{
+            width:100%;
+        }
+        img{
+            width: 336px;
+            margin-bottom: 8px;
+        }
+        h3{
+            font-size: 48px;
+            line-height: 72px;
+            color: $primary;
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+    .co-design-list{
+        flex-wrap: wrap;
+        li{
+            max-width: 100%;
+            margin-bottom: 24px;
+        }
     }
 }
 @media (max-width:767px) {
@@ -82,5 +171,69 @@
     }
 }
 // 手機解析度
-@media (max-width:570px) {
+@media (max-width:570px) { 
+    .container{
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .specialized{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: $text-2xl;
+            line-height: 36px;
+        }
+    }
+    .specialized-list{
+        display: flex;
+        li{
+            width: 100%;
+        }
+        img{
+            width: 100px;
+            margin-bottom: 16px;
+        }
+        h3{
+            color: $secondary;
+            line-height: 36px;
+            font-size:$text-2xl;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        p{
+            text-align: left;
+            line-height: 24px;
+        }
+    }
+    .classical{
+        margin: 40px 0;
+        h2{
+            font-size: $text-2xl;
+            line-height: 36px;
+            margin-bottom: 24px;
+        }
+    }
+    .classical-list{
+        padding: 0 13px;
+        img{
+            width: 100%;
+        }
+    }
+    .co-design{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        h2{
+            font-size: $text-2xl;
+            line-height: 36px;
+            margin-bottom: 24px;
+        }
+    }
+    .co-design-list{
+        .d-block{
+            display: none;
+        }
+        .d-none{
+            display: block;
+        }
+    }
 }

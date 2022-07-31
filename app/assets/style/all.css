@@ -72,18 +72,16 @@ li {
   list-style: none;
 }
 
+h2 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bold;
+}
+
 .container {
   max-width: 1296px;
   margin: 0 auto;
-  padding: 0 36px;
-}
-
-.container-header-sm {
-  padding: 0 !important;
-}
-
-.container-footer-sm {
-  padding: 0 13px !important;
+  padding: 0 13px;
 }
 
 .pr-0 {
@@ -114,6 +112,14 @@ li {
 .btn-buy-now:hover {
   color: #AA0601;
   background-color: white;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
 }
 
 header {
@@ -356,10 +362,7 @@ footer {
 }
 .specialized h2 {
   color: #650300;
-  font-size: 48px;
-  line-height: 72px;
   margin-bottom: 24px;
-  font-weight: bold;
 }
 
 .specialized-list {
@@ -384,9 +387,105 @@ footer {
   line-height: 24px;
 }
 
+.classical {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.classical h2 {
+  color: #650300;
+  margin-bottom: 48px;
+}
+
+.classical-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.classical-list li {
+  width: 33.3333%;
+}
+.classical-list img {
+  margin-bottom: 8px;
+}
+.classical-list h3 {
+  font-size: 48px;
+  line-height: 72px;
+  color: #AA0601;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.co-design {
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.co-design h2 {
+  color: white;
+  margin-bottom: 48px;
+}
+
+.co-design-list {
+  display: flex;
+}
+.co-design-list li {
+  max-width: 50%;
+}
+.co-design-list h3 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bold;
+  font-style: italic;
+  color: #AA0601;
+  background-color: white;
+  padding: 8px 0;
+}
+
 @media (max-width: 992px) {
+  .container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
   .banner {
     background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png);
+  }
+  .specialized-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  .specialized-list li {
+    width: 47%;
+    margin-right: 0 !important;
+  }
+  .classical-list {
+    flex-wrap: wrap;
+  }
+  .classical-list li {
+    width: 100%;
+  }
+  .classical-list img {
+    width: 336px;
+    margin-bottom: 8px;
+  }
+  .classical-list h3 {
+    font-size: 48px;
+    line-height: 72px;
+    color: #AA0601;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .co-design-list {
+    flex-wrap: wrap;
+  }
+  .co-design-list li {
+    max-width: 100%;
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 767px) {
@@ -402,5 +501,69 @@ footer {
     color: #650300;
     font-size: 24px;
     line-height: 36px;
+  }
+}
+@media (max-width: 570px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .specialized {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .specialized h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .specialized-list {
+    display: flex;
+  }
+  .specialized-list li {
+    width: 100%;
+  }
+  .specialized-list img {
+    width: 100px;
+    margin-bottom: 16px;
+  }
+  .specialized-list h3 {
+    color: #650300;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .specialized-list p {
+    text-align: left;
+    line-height: 24px;
+  }
+  .classical {
+    margin: 40px 0;
+  }
+  .classical h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+  .classical-list {
+    padding: 0 13px;
+  }
+  .classical-list img {
+    width: 100%;
+  }
+  .co-design {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .co-design h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+  .co-design-list .d-block {
+    display: none;
+  }
+  .co-design-list .d-none {
+    display: block;
   }
 }/*# sourceMappingURL=all.css.map */

@@ -9,19 +9,18 @@ $text-nl:16px;
 $text-xl:20px;
 $text-2xl:24px;
 $text-3xl: 32px;
+h2{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+}
 
 
 // 容器
 .container{
     max-width: 1296px;
     margin: 0 auto;
-    padding: 0 36px;
-}
-.container-header-sm{
-    padding: 0 !important;
-}
-.container-footer-sm{
-    padding: 0 13px !important;
+    padding: 0 13px;
 }
 
 //小工具
@@ -50,3 +49,10 @@ $text-3xl: 32px;
         background-color: white;
     }
 }
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+ 
