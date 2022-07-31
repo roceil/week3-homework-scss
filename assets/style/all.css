@@ -469,6 +469,11 @@ footer {
   .container {
     padding-left: 13px;
     padding-right: 13px; }
+  .banner {
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png);
+    background-position: top center;
+    background-size: cover;
+    height: 60.5vh; }
   .specialized {
     padding-top: 40px;
     padding-bottom: 40px; }
